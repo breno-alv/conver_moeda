@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" type="text/css" rel="stylesheet"/>
+  <title>Conversor de Moedas</title>
+  <link rel="icon" type="imagem/png" sizes="16x16" href="img/favicon-16x16.png">
+</head>
+<body>
+  <!-- <img src="img/bg-cotacao1200.jpg" alt="imagem"> -->
+  <h1 class="title-page">Conversor de Moedas</h1>
+  <div class="container">
+    <p class="subtitle-page">Descubra o valor do Real em Dolar e Euro</p>
+    <label for="moeda">Insira o Valor R$:</label>
+    <input type="number" id="valor" name="moeda"size="2"/><br>
+    <button id="convert"type="submit" onclick="Converter()">
+    Converter</button>
+    <div id="valor-convertido-em-dolar"></div>
+    <div id="valor-convertido-em-euro"></div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

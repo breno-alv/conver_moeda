@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+  color: white;
+}
+p{
+  color: white;
+}
+
+body {
+  background-image: url(/img/bg-cotacao.jpg);
+  background-repeat: no-repeat;
+}
+.container{
+  background: rgba(4, 99, 241, 0);
+  box-shadow: 0 8px 32px 0 rgba(13, 13, 14, 100);
+  backdrop-filter: blur(5px);
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  margin: 50px auto;
+  border: 3px solid rgba(245, 241, 241, 0.089);
+  border-radius: 50px;
+}
+.title-page{
+  text-shadow: 0.1em 0.1em 0.2em black;
+  text-align: center;
+  padding: 5px;
+  margin-top: 30px;
+  background: rgba(4, 99, 241, 0);
+  box-shadow: 0 8px 32px 0 rgba(13, 13, 14, 100);
+  backdrop-filter: blur(5px);
+}
+
+.subtitle-page{
+  text-align: center;
+  margin: 20px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+label{
+  color: white;
+  margin: auto;
+  margin-left: 90px;
+  padding: 5px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+#valor{
+  padding: 5px;
+  width: 45px;
+  border: none;
+  background:none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 15px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+#convert{
+  color:white;
+  width: 200px;
+  height: 40px;
+  border: 3px solid rgba(253, 253, 253, 0.082);
+  border-radius:100px;
+  cursor:pointer;
+  font-weight:bold;
+  font-size:13px;
+  padding:6px 10px;
+  text-decoration:none;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: rgba(4, 143, 223, 0.397);
+  box-shadow: 1px 5px 10px rgb(10, 10, 10);
+}
+#convert:hover{
+  background-color: rgb(3, 100, 245);
+}
+#valor-convertido-em-dolar{
+  color:white;
+  text-align: center;
+  padding: 15px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  /* margin-top: 20px; */
+}
+
+#valor-convertido-em-euro{
+  color:white;
+  text-align: center;
+  padding: 10px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  /* margin-top: 20px; */
+}
+
+
